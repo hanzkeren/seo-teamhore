@@ -1,0 +1,596 @@
+---
+import Base from "../layouts/Base.astro";
+
+const title = "Jasa Iklan Google untuk Bisnis yang Mau Closing";
+const description =
+  "Jasa iklan Google yang fokus closing. Setup rapi. Keyword tajam. Budget aman. Bukan janji manis.";
+
+const faq = [
+  {
+    question: "Berapa budget minimal Google Ads yang realistis?",
+    answer:
+      "Tergantung industri. Bisa kecil bisa besar. Kalau setup salah budget tetap habis.",
+  },
+  {
+    question: "Apakah cocok untuk bisnis lokal?",
+    answer: "Cocok. Bisa target radius. Iklan tidak nyasar.",
+  },
+  {
+    question: "Berapa lama sampai terlihat hasil?",
+    answer: "Sinyal awal muncul cepat. Stabil biasanya butuh beberapa minggu.",
+  },
+  {
+    question: "Apakah Google Ads selalu mahal?",
+    answer: "Nggak selalu. Yang mahal itu salah setup.",
+  },
+  {
+    question: "Kenapa iklan saya sering boncos?",
+    answer: "Keyword lebar. Iklan tidak nyambung. Landing page ngaco.",
+  },
+  {
+    question: "Apa bedanya iklan Search dan Display?",
+    answer:
+      "Search itu orang nyari. Display itu kamu nyamperin. Closing cepat biasanya dari Search.",
+  },
+  {
+    question: "Apakah saya harus punya website dulu?",
+    answer: "Idealnya iya. Tanpa halaman jelas trust turun.",
+  },
+  {
+    question: "Apakah bisa fokus hanya pada Search?",
+    answer: "Bisa. Search sering paling cepat closing.",
+  },
+  {
+    question: "Apakah ada kontrak panjang?",
+    answer: "Tidak wajib. Kami fokus hasil.",
+  },
+  {
+    question: "Bagaimana sistem fee jasa?",
+    answer: "Fee bulanan tetap di luar budget iklan. Dari awal jelas.",
+  },
+  {
+    question: "Apakah laporan performa disediakan?",
+    answer: "Ada. Fokus ke biaya per lead dan keyword yang jalan.",
+  },
+  {
+    question: "Bisakah tracking conversion diintegrasikan?",
+    answer: "Bisa. Tracking form WA call dan pembelian.",
+  },
+  {
+    question: "Apakah Google Ads cocok untuk bisnis baru?",
+    answer: "Cocok kalau produk jelas. Kalau belum jelas iklan jadi biaya belajar.",
+  },
+  {
+    question: "Apakah iklan bisa langsung ramai?",
+    answer: "Bisa cepat aktif. Tapi ramai bukan tujuan.",
+  },
+  {
+    question: "Apakah ada garansi penjualan?",
+    answer: "Tidak ada garansi. Yang ada setup bener atau salah.",
+  },
+  {
+    question: "Apa yang dibutuhkan sebelum mulai?",
+    answer: "Brief bisnis target market info produk aset iklan. Akses akun kalau ada.",
+  },
+  {
+    question: "Apakah bisa mengelola akun yang sudah berjalan?",
+    answer: "Bisa. Audit dulu lalu rapihin.",
+  },
+  {
+    question: "Bagaimana cara memilih keyword yang tepat?",
+    answer: "Cari keyword intent beli. Traffic besar tanpa closing percuma.",
+  },
+  {
+    question: "Apakah ada jasa iklan google terpercaya?",
+    answer: "Ada. Akun milik kamu laporan rutin dan tidak janji muluk.",
+  },
+  {
+    question: "Berapa biaya jasa iklan google?",
+    answer: "Fee bulanan di luar budget iklan. Tergantung kompleksitas campaign.",
+  },
+  {
+    question: "Apakah jasa iklan google untuk pemula cocok?",
+    answer: "Cocok. Lebih aman mulai dengan arah yang benar.",
+  },
+  {
+    question: "Apakah ada jasa iklan google anti boncos?",
+    answer: "Tidak ada jaminan. Tapi ada sistem anti boncos.",
+  },
+  {
+    question: "Apakah melayani jasa iklan google indonesia?",
+    answer: "Ya. Bisa lokal atau nasional.",
+  },
+  {
+    question: "Apakah bisa bantu landing page?",
+    answer: "Bisa. Struktur copy dan CTA kami rapikan.",
+  },
+  {
+    question: "Apakah termasuk setup GA4 dan Tag Manager?",
+    answer: "Bisa. Tracking itu wajib.",
+  },
+  {
+    question: "Bagaimana jika budget iklan kecil?",
+    answer: "Bisa jalan kalau fokus. Area sempit keyword sempit.",
+  },
+  {
+    question: "Apakah bisa fokus produk high intent?",
+    answer: "Bisa. Produk high intent cocok untuk Search.",
+  },
+  {
+    question: "Apakah bisa laporan mingguan?",
+    answer: "Bisa. Mingguan atau bulanan.",
+  },
+];
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faq.map((item) => ({
+    "@type": "Question",
+    name: item.question,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: item.answer,
+    },
+  })),
+};
+
+const localBusinessSchema = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  name: "Teamhore",
+  url: "https://teamhore.com/jasa-iklan-google/",
+  telephone: "+62-822-5388-8174",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "Jl Gedung Baru",
+    addressLocality: "DKI Jakarta",
+    addressRegion: "Jakarta",
+    postalCode: "11180",
+    addressCountry: "ID",
+  },
+};
+---
+
+<Base title={title} description={description}>
+  <main class="mx-auto w-full max-w-[780px] px-5 pb-24 pt-12 sm:pt-16">
+    <section class="stagger">
+      <p class="text-xs font-semibold uppercase tracking-[0.3em] text-slate-500">
+        Jasa Iklan Google
+      </p>
+      <h1 class="mt-4 text-4xl font-semibold leading-tight text-slate-900 sm:text-5xl">
+        Jasa Iklan Google untuk Bisnis yang Mau Closing
+      </h1>
+      <p class="mt-4 text-lg leading-relaxed text-slate-600">
+        Fokus Google Ads. Setup rapi. Budget ga dibakar. Ini halaman kerja.
+        Bukan gimmick.
+      </p>
+      <div class="mt-6 flex flex-wrap items-center gap-3">
+        <a
+          class="rounded-full bg-slate-900 px-5 py-2 text-sm font-semibold text-white"
+          href="https://wa.me/6282253888174"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Konsultasi Gratis via WhatsApp
+        </a>
+        <a class="text-sm font-medium text-slate-600" href="/">
+          Kembali ke homepage
+        </a>
+      </div>
+      <p class="mt-4 text-sm text-slate-500">
+        Internal link <a class="underline" href="/jasa-iklan-google/">jasa iklan google</a>
+      </p>
+    </section>
+
+    <article class="mt-12 space-y-8 text-base leading-relaxed text-slate-700">
+      <section>
+        <h2 class="text-2xl font-semibold text-slate-900">
+          Masalah paling umum: iklan jalan closing tidak datang
+        </h2>
+        <p class="mt-3">
+          Banyak bisnis boncos. Bukan karena produknya jelek. Karena setup
+          iklan berantakan. Keyword terlalu lebar. Iklan generik. Landing page
+          nggak nyambung.
+        </p>
+        <p class="mt-3">
+          Google Ads itu simpel. Orang lagi nyari lu muncul. Setup salah budget
+          habis. Setup bener closing jalan.
+        </p>
+        <p class="mt-3">
+          Yang kejadian di lapangan akun aktif tapi nggak punya arah. Orang klik
+          karena penasaran. Bukan mau beli. Biaya naik. Lead turun.
+        </p>
+        <p class="mt-3">
+          Solusinya bukan trik. Rapihin fondasi. Struktur campaign. Relevansi
+          iklan. Kecepatan halaman. Tracking yang benar. Itu yang bikin stabil.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-semibold text-slate-900">
+          Kenapa Google Ads paling cepat untuk closing
+        </h2>
+        <p class="mt-3">
+          Google Ads kerja di momen niat. Orang ngetik keyword karena butuh
+          solusi. Ini beda level dari iklan yang cuma numpang lewat.
+        </p>
+        <p class="mt-3">
+          Kalau keyword tepat iklan muncul pas orang siap beli. Itu sebabnya
+          Google Ads cepat bawa lead. Terutama untuk bisnis jasa.
+        </p>
+        <p class="mt-3">
+          Bukan awareness doang. Ini momen beli. Kualitas lead biasanya lebih
+          tinggi kalau iklan nyambung.
+        </p>
+        <p class="mt-3">
+          Banyak yang kejar klik murah. Salah arah. Traffic gampang. Closing
+          susah. Fokus di intent tinggi. Hasilnya kerasa.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-semibold text-slate-900">
+          Kenapa pakai jasa iklan Google lebih masuk akal
+        </h2>
+        <p class="mt-3">
+          Bikin campaign bukan sekadar klik tombol. Ada riset keyword. Match
+          type. Negative keyword. Copywriting. Quality score. Tracking. Salah
+          satu ngaco biaya naik.
+        </p>
+        <p class="mt-3">
+          Pakai jasa iklan Google yang fokus itu hemat waktu dan uang. Keyword
+          dikunci. Iklan relevan. Biaya dijaga.
+        </p>
+        <p class="mt-3">
+          Banyak yang mikir Google Ads tinggal set budget lalu jalan. Faktanya
+          detail teknis yang nentuin hasil. Struktur ad group. Match type.
+          Negative keyword. Landing page. Ini yang bikin beda.
+        </p>
+        <p class="mt-3">
+          Kalau kamu coba-coba sendiri lu bayar kesalahan sendiri. Pakai tim
+          yang fokus. Kamu urus bisnis. Kami urus data.
+        </p>
+        <p class="mt-3">
+          Hemat itu niat bagus. Trial tanpa arah bikin rugi. Klik salah uang
+          hilang. Simpel.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-semibold text-slate-900">Proses Kerja</h2>
+        <p class="mt-3">
+          Proses kerja kami bukan coba-coba. Semua langkah jelas. Data yang
+          ngomong. Bukan feeling.
+        </p>
+        <ol class="mt-3 list-decimal space-y-2 pl-5">
+          <li>Audit awal cek akun atau landing page yang ada.</li>
+          <li>Riset keyword niat tinggi. Bukan volume semata.</li>
+          <li>Struktur campaign dan ad group yang bersih.</li>
+          <li>Setup tracking conversion agar data akurat.</li>
+          <li>Optimasi rutin berdasarkan data. Bukan feeling.</li>
+        </ol>
+        <p class="mt-3">
+          Setelah setup kami rawat. Keyword boros dipotong. Keyword yang closing
+          ditambah. Iklan yang lemah diganti. Ini beda antara campaign sehat
+          dan campaign yang cuma hidup doang.
+        </p>
+        <p class="mt-3">
+          Struktur tetap rapi. Nama campaign jelas. Tracking nggak putus. Banyak
+          akun gagal bukan karena iklan. Tapi karena data amburadul dari awal.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-semibold text-slate-900">Cocok untuk siapa</h2>
+        <p class="mt-3">
+          Google Ads cocok buat bisnis yang butuh hasil cepat dan bisa diukur.
+          Kalau mau lead masuk hari ini juga ini channel yang paling masuk
+          akal. Ini tipe yang biasanya cocok.
+        </p>
+        <ul class="mt-3 list-disc space-y-2 pl-5">
+          <li>UMKM yang butuh lead cepat dan terukur.</li>
+          <li>Bisnis jasa yang mengandalkan kontak langsung.</li>
+          <li>Brand yang butuh validasi market cepat.</li>
+          <li>Perusahaan yang ingin scale tanpa buang budget.</li>
+        </ul>
+        <p class="mt-3">
+          Kalau masih nanya “minimal budget berapa” biasanya belum siap scale.
+          Tapi kalau produk jelas dan niat belinya tinggi Google Ads bisa jadi
+          mesin closing paling stabil. Lihat detailnya di
+          <a class="underline" href="/jasa-iklan-google/">jasa iklan google</a>.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-semibold text-slate-900">
+          Kenapa iklan sering boncos padahal klik banyak
+        </h2>
+        <p class="mt-3">
+          Klik bukan masalah. Niat yang salah itu masalah. Kalau iklan muncul
+          buat keyword yang salah klik cuma numpang lewat. Nggak closing.
+        </p>
+        <p class="mt-3">
+          Banyak akun nggak serius di negative keyword. Iklan muncul di kata
+          kunci yang salah. Budget habis buat orang yang belum siap beli. Rasio
+          konversi jatuh.
+        </p>
+        <p class="mt-3">
+          Makanya keyword boros harus dipotong. Fokus kualitas bukan kuantitas.
+          Kalau ini beres biaya per lead lebih sehat.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-semibold text-slate-900">
+          Strategi anti boncos yang dipakai Teamhore
+        </h2>
+        <p class="mt-3">
+          Kami nggak ngejar traffic besar yang kosong. Strateginya sederhana.
+          Petakan intent. Pecah campaign sesuai kebutuhan user. Iklan lebih
+          spesifik. Quality score naik. Biaya lebih waras.
+        </p>
+        <p class="mt-3">
+          Setiap campaign punya tujuan. Data harian dicek. Keyword boros
+          dipotong. Keyword yang closing ditambah. Simple.
+        </p>
+        <p class="mt-3">
+          Fokusnya bukan klik tapi lead yang bisa ditindaklanjuti. Tracking itu
+          wajib. Tanpa data optimasi cuma tebak-tebakan.
+        </p>
+        <p class="mt-3">
+          Kami nggak hobi eksperimen tanpa arah. Kalau test ukur dampaknya.
+          Kalau nggak jelas nggak dijalankan.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-semibold text-slate-900">
+          Sinyal kepercayaan di mata Google dan calon pelanggan
+        </h2>
+        <p class="mt-3">
+          Google ngelihat relevansi dari banyak hal. Keyword. Iklan. Pengalaman
+          landing page. Performa historis. Kalau semua rapi biaya bisa turun
+          dan posisi iklan lebih stabil. Ini mekanisme dasar bukan teori.
+        </p>
+        <p class="mt-3">
+          Dari sisi manusia trust dibangun lewat pesan yang konsisten. Iklan
+          jelas. Halaman menjawab. CTA tegas. Makanya tampilan kami sederhana.
+          Biar fokus tetap ke pesan bukan dekorasi.
+        </p>
+        <p class="mt-3">
+          Semua nyambung. Iklan relevan bikin quality score naik. Biaya turun.
+          Ruang scale kebuka. Itu mesin yang kami bangun.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-semibold text-slate-900">
+          Checklist sebelum kampanye dijalankan
+        </h2>
+        <p class="mt-3">
+          Sebelum iklan nyala ada beberapa hal yang harus beres. Ini bukan
+          formalitas. Ini penentu hasil.
+        </p>
+        <p class="mt-3">
+          Pertama penawaran harus jelas. Jual apa buat siapa kenapa harus lu.
+          Kalau pesan kabur iklan cuma jadi noise.
+        </p>
+        <p class="mt-3">
+          Kedua landing page harus cepat dan fokus. Halaman berat bikin orang
+          cabut. Orang butuh jawaban di 5-10 detik pertama.
+        </p>
+        <p class="mt-3">
+          Ketiga tracking wajib dari awal. Tanpa tracking lu nggak tahu mana
+          yang hasilin uang dan mana yang buang uang.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-semibold text-slate-900">
+          Ekspektasi biaya dan hasil yang realistis
+        </h2>
+        <p class="mt-3">
+          Banyak yang berharap Google Ads langsung jadi mesin penjualan. Realitanya
+          butuh data dan waktu. Ada sinyal cepat tapi hasil stabil itu proses.
+        </p>
+        <p class="mt-3">
+          Soal biaya semua tergantung industri. Ada yang murah ada yang mahal.
+          Kami fokus ke kualitas lead. Lead mahal tapi closing lebih sehat
+          daripada lead murah tapi kosong.
+        </p>
+        <p class="mt-3">
+          Ekspektasi kami omongin di awal. Nggak ada janji palsu. Yang ada proses
+          rapi data transparan optimasi konsisten.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-semibold text-slate-900">
+          Jasa iklan Google Indonesia untuk bisnis lokal dan nasional
+        </h2>
+        <p class="mt-3">
+          Banyak klien mau target kota tertentu. Jakarta Bandung Surabaya.
+          Google Ads bisa atur radius. Budget nggak bocor ke area yang nggak
+          relevan.
+        </p>
+        <p class="mt-3">
+          Untuk skala nasional campaign bisa dipisah per wilayah. Biar laporan
+          jelas dan optimasi nggak ngawur.
+        </p>
+        <p class="mt-3">
+          Mau lokal atau nasional prinsipnya sama. Niat beli. Relevansi iklan.
+          Landing page yang jelas. Jasa iklan Google yang bener main di situ.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-semibold text-slate-900">
+          Bagaimana kami mengukur keberhasilan
+        </h2>
+        <p class="mt-3">
+          Kami nggak cuma lihat klik. Yang penting itu kualitas lead dan biaya
+          per lead. Kampanye bisa ramai tapi rugi kalau lead nggak jadi closing.
+        </p>
+        <p class="mt-3">
+          Search term report dicek rutin. Keyword yang menghasilkan ditambah.
+          Keyword boros dipotong. Itu cara menjaga performa tetap sehat.
+        </p>
+        <p class="mt-3">
+          Target akhirnya sederhana. Biaya masuk akal. Lead berkualitas. Closing
+          lebih gampang. Kalau tiga itu beres campaign layak di-scale.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-semibold text-slate-900">
+          Tanda akun iklan sehat
+        </h2>
+        <p class="mt-3">
+          Akun sehat bukan akun ramai. Akun sehat itu kebaca. Nama campaign
+          jelas. Ad group rapi. Setiap iklan punya tujuan. Kalau semua campur
+          itu bukan strategi. Itu panik.
+        </p>
+        <p class="mt-3">
+          CTR bukan dewa. CTR tinggi tapi lead jelek tetap nggak ada artinya.
+          Kalau lead yang masuk nggak bisa ditutup berarti ada yang salah di
+          intent atau di halaman.
+        </p>
+        <p class="mt-3">
+          Akun sehat juga punya negative keyword yang hidup. Bukan sekali set
+          lalu lupa. Ini bagian yang sering dilupakan. Di sinilah uang bocor
+          paling sering terjadi.
+        </p>
+        <p class="mt-3">
+          Terakhir akun sehat itu punya kebiasaan evaluasi. Bukan tunggu sebulan
+          baru dilihat. Kalau kamu jarang lihat data ya hasilnya ikut liar.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-semibold text-slate-900">
+          Pola yang sering kejadian di lapangan
+        </h2>
+        <p class="mt-3">
+          Ada akun yang kelihatan rapi. Tapi di dalamnya semua keyword digabung.
+          Itu bikin iklan nggak nyambung. CTR bisa naik. Lead tetap jelek.
+        </p>
+        <p class="mt-3">
+          Ada juga akun yang kejar volume. Semua match type dibuka. Budget cepat
+          habis. Laporan ramai. Hasil sepi. Ini sering banget kejadian.
+        </p>
+        <p class="mt-3">
+          Banyak yang lupa cek search term. Padahal di situ kebocoran paling
+          besar. Keyword boros dibiarkan. Biaya naik pelan pelan. Baru sadar
+          ketika budget sudah tipis.
+        </p>
+        <p class="mt-3">
+          Realitanya sederhana. Kalau kamu nggak paham data. Jangan berharap
+          hasil stabil. Ini bukan masalah tool. Ini masalah disiplin.
+        </p>
+        <p class="mt-3">
+          Kadang klien datang dengan akun lama. Banyak campaign. Banyak iklan.
+          Tapi tracking mati. Jadi semua keputusan cuma feeling. Itu yang kami
+          beresin dulu. Tanpa data tidak ada arah.
+        </p>
+        <p class="mt-3">
+          Ada juga yang minta semua keyword masuk. Padahal tiap keyword bawa
+          niat yang beda. Kalau disamaratakan hasilnya ya campur aduk. Di situ
+          pentingnya struktur. Biar pesannya pas.
+        </p>
+        <p class="mt-3">
+          Kalau kamu mau skala. Mulai dari yang paling jelas dulu. Keyword yang
+          niat beli. Iklan yang spesifik. Landing page yang fokus. Setelah itu
+          baru perluas. Jangan kebalik.
+        </p>
+        <p class="mt-3">
+          Ini pola yang kerja di banyak bisnis. Bukan teori. Ini yang kejadian.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-semibold text-slate-900">
+          Apa yang kamu dapat dari jasa iklan Google Teamhore
+        </h2>
+        <p class="mt-3">
+          Pertama struktur campaign yang bersih. Kamu nggak bingung lihat akun
+          sendiri. Semuanya rapi dan kebaca.
+        </p>
+        <p class="mt-3">
+          Kedua laporan yang bisa dipakai buat keputusan bisnis. Bukan sekadar
+          klik. Ada cost per lead. Ada keyword yang jalan. Ada yang dipotong.
+        </p>
+        <p class="mt-3">
+          Ketiga komunikasi yang realistis. Nggak ada janji muluk. Ada proses
+          yang benar dan konsisten. Kalau lu butuh partner yang tenang itu kami.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-semibold text-slate-900">FAQ panjang</h2>
+        <div class="mt-4 space-y-3">
+          {faq.map((item) => (
+            <details class="rounded-2xl border border-slate-200 bg-white p-4">
+              <summary class="cursor-pointer text-base font-semibold text-slate-900">
+                {item.question}
+              </summary>
+              <p class="mt-2 text-sm text-slate-600">{item.answer}</p>
+            </details>
+          ))}
+        </div>
+        <p class="mt-4 text-sm text-slate-500">
+          Halaman terkait
+          <a class="underline" href="/jasa-google-ads/">jasa google ads</a>
+          <a class="underline" href="/jasa-pasang-iklan-google/">jasa pasang iklan google</a>
+          <a class="underline" href="/pakar-google-ads/">pakar google ads</a>
+          <a class="underline" href="/ahli-google-ads/">ahli google ads</a>
+          <a class="underline" href="/mentor-google-ads/">mentor google ads</a>
+          <a class="underline" href="/kursus-google-ads/">kursus google ads</a>
+          <a class="underline" href="/private-google-ads/">private google ads</a>
+        </p>
+      </section>
+    </article>
+
+    <section class="mt-12 border-t border-slate-200 pt-8">
+      <h2 class="text-2xl font-semibold text-slate-900">Siap mulai</h2>
+      <p class="mt-3 text-base leading-relaxed text-slate-600">
+        Kalau kamu butuh struktur iklan yang rapi dan fokus closing kita bisa
+        mulai dari konsultasi singkat. Tidak ada janji palsu. Hanya eksekusi
+        jelas.
+      </p>
+      <a
+        class="mt-5 inline-flex rounded-full bg-slate-900 px-6 py-3 text-sm font-semibold text-white"
+        href="https://wa.me/6282253888174"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Konsultasi Gratis via WhatsApp
+      </a>
+    </section>
+
+    <footer class="mt-14 border-t border-slate-200 pt-8 text-sm text-slate-500">
+      <p>WhatsApp: +62 822-5388-8174</p>
+      <div class="mt-2 flex flex-wrap gap-4">
+        <a class="underline" href="/about/">Tentang</a>
+        <a class="underline" href="/contact/">Kontak</a>
+        <a class="underline" href="/jasa-iklan-google/">jasa iklan google</a>
+      </div>
+    </footer>
+  </main>
+
+  <a
+    class="fixed bottom-4 left-1/2 z-50 w-[calc(100%-2.5rem)] -translate-x-1/2 rounded-full bg-slate-900 px-5 py-3 text-center text-sm font-semibold text-white shadow-lg sm:hidden"
+    href="https://wa.me/6282253888174"
+    target="_blank"
+    rel="noreferrer"
+  >
+    Konsultasi Gratis via WhatsApp
+  </a>
+
+  <script type="application/ld+json">
+    {JSON.stringify(faqSchema)}
+  </script>
+  <script type="application/ld+json">
+    {JSON.stringify(localBusinessSchema)}
+  </script>
+</Base>
